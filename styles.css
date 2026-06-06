@@ -1275,6 +1275,48 @@ section {
   font-size: 0.8rem;
   color: var(--text-muted);
   letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.platform-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--green-bright);
+  font-weight: 500;
+}
+
+.platform-separator {
+  color: var(--text-muted);
+  opacity: 0.4;
+}
+
+.platform-soon {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cta-dev-note {
+  margin-top: 12px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.cta-dev-note a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-decoration-color: rgba(212, 168, 67, 0.3);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.3s;
+}
+
+.cta-dev-note a:hover {
+  text-decoration-color: var(--gold);
 }
 
 /* --- Footer --- */
