@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:trucknroll.com)",
+      "WebFetch(domain:mira-dev.webflow.io)",
+      "WebFetch(domain:www.bradyperron.com)"
+    ]
+  }
+}
